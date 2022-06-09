@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>감자의 할 일 </title>
+
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/sub_4.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <a id="LOGO" href="./index.html"> <img src="./img/LOGO.png"> </a>
+        <ul>
+            <li> <a href="./sub_1.html"> 감자의 밭 </a> </li>
+            <li> <a href="./sub_2_01.html"> 감자의 방</a> </li>
+            <li> <a href="./sub_3.html"> 감자의 추억</a> </li>
+            <li> <a href="./sub_4.html"> 감자의 할 일</a> </li>
+            <li> <a href="./sub_5.html"> 감자를 그리다 </a> </li>
+        </ul>
+    </header>
+    
+    <main>
+        <div class="todo-wrapper">
+            <div class="todo-title"> 오늘의 할 일</div>
+            <div class="todo-box">
+    
+                <div class="todo-input-box">
+                    <button class="complete-all-btn"> ✓ </button>
+                    <input type="text" class="todo-input" placeholder=" 입력 ">
+                </div>
+                
+                <ul class="todo-list">
+                   <!-- <li class="todo-item checked">
+                        <div class="checkbox">✔</div>
+                        <div class="todo">첫번째 할 일</div>
+                        <button class="delBtn">x</button>
+                    </li>
+                    <li class="todo-item">
+                        <div class="checkbox"></div>
+                        <div class="todo">두번째 할 일</div>
+                        <button class="delBtn">x</button>
+                    </li>
+                    <li class="todo-item">
+                        <div class="checkbox"></div>
+                        <div class="todo">세번째 할 일</div>
+                        <button class="delBtn">x</button>
+                    </li> -->
+                </ul>
+                <div class="todo-bottom">
+                    <div class="left-items">3 items left</div>
+                    <div class="button-group">
+                        <button class="show-all-btn selected" data-type="all"> 전체 </button>
+                        <button class="show-active-btn" data-type="active"> 진행중  </button>
+                        <!-- <button class="show-completed-btn" data-type="completed"> 완료 </button> -->
+                    </div>
+                    <button class="clear-completed-btn">Clear Completed</button>
+                </div>
+            </div>
+            <p class="info">더블클릭 시 수정 가능!</p>
+           
+        </div>
+
+    </main>
+
+    <footer>
+        <article id="address">
+            <ul id="company_info">
+                <li> 사업자 등록번호: 1212-8282-3139 </li>
+                <li> 제작자 : 홍수지 </li>
+                <li> 주소: 경기도 의왕시 계원대학로66 </li>
+                <li id="copyright">Kaywon University. All Rights Reserved. </li>
+            </ul>
+        </article>
+
+
+    </footer>
+
+    <script src="./js/todoList.js"> </script>
+
+</body>
+</html>
