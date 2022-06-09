@@ -1,0 +1,480 @@
+@font-face {
+    font-family: 'Shining_star';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Shining_star.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Shining_star';
+}
+
+main {
+    width: 1230px;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrap {
+    width: 970px;
+    margin: 0 auto;
+}
+
+/* nav */
+main aside {
+    width: 215px;
+    height: 530px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    float: right;
+}
+
+main aside nav {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+nav {
+    height: 180px;
+    padding: 10px;
+    background-color: #ecdbb8;
+}
+
+nav h3 {
+    font-size: 26px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #009a3a;
+}
+
+nav ul {
+    margin-top: 10px 0 0 25px;
+}
+
+nav li {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+/*guestbook*/
+aside #guestbook {
+    width: 215px;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+}
+
+aside #guestbook_title {
+    width: 165px;
+    padding: 10px 0 5px 5px;
+    margin: 0 0 0 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+aside #guestbook ul {
+    margin: 10px 0 0 25px;
+}
+
+aside #guestbook li {
+    margin-top: 5px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+aside #guestbook input {
+    margin: 0 0 0 20px;
+}
+
+/* main content*/
+section#main {
+    width: 758px;
+    height: auto;
+    float: left;
+    position: relative;
+
+}
+
+section#main #main_head_img_box {
+    background-image: url(../img/sub_2_mainImg.jpeg), url(../img/sub_2_main2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 300px;
+}
+
+section#main #main_head_img_box p {
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    color: white;
+}
+
+section#main #main_head_img_box span {
+    position: absolute;
+    top: 205px;
+    left: 130px;
+    color: white;
+}
+
+section#main #notice_free_youtube {
+    height: 200px;
+    position: relative;
+    margin-top: 35px;
+}
+
+#notice_free_youtube h2 {
+    position: absolute;
+    border-bottom: 2px solid #ccc;
+}
+
+/* 공지사항 박스 */
+section#main #notice {
+    width: 450px;
+    position: absolute;
+    top: 30px;
+    margin: 20px 0 70px 0;
+}
+
+/*최근 게시물 제목 */
+section#main .latest_title {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+section#main .latest_title img.latest_img {
+    float: left;
+    width: auto;
+    height: 15px;
+
+}
+
+section#main .latest_title img.more {
+    float: right;
+    width: 35px;
+    height: auto;
+}
+
+/*최근 게시물 이미지와 목록 */
+section#main .latest_content .image {
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 100px;
+    height: auto;
+}
+
+section#main .latest_content .list {
+    float: left;
+    margin-left: 30px;
+}
+
+section#main .latest_content li {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+section#main .latest_content .list div {
+    float: left;
+}
+
+section#main .latest_content .list .subject {
+    width: 70px;
+}
+
+/*자유 게시판 박스 */
+section#main #free {
+    width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    margin: 20px 0 70px 0;
+}
+
+/*유튜브 동영상 박스 */
+section#main #youtube {
+    width: 365px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+}
+
+section#main #youtube h2 {
+    display: inline-block;
+    border-bottom: 2px solid #ccc;
+}
+
+section#main #youtube iframe {
+    margin: 10px 0 0 0;
+}
+
+/*포토갤러리*/
+section#main #gallery img {
+    width: 94px;
+    height: auto;
+}
+
+section#main #gallery_box {
+    width: 750px;
+    height: 204px;
+    margin: 10px 0 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+section #gallery_list {
+    padding: 25px 0 0 18px;
+}
+
+section .items {
+    float: left;
+    text-align: center;
+    margin-left: 35px;
+}
+
+section .items li {
+    margin-top: 3px;
+}
+
+section .items li img {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 1100px) {
+    main {
+        width: auto;
+        height: 1600px;
+        margin: 0 auto;
+    }
+
+
+    section#main #main_head_img_box {
+        background-image: url(../img/sub_2_mainImg.jpeg), url(../img/sub_2_main2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1000px;
+        height: 300px;
+        margin-top: 200px;
+    }
+
+    /* nav */
+    main aside {
+        width: 100%;
+        height: 530px;
+        /* border: 1px solid red; */
+        display: inline-block;
+        clear: both;
+        position: relative;
+        top: -750px;
+    }
+
+    main aside nav {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 180px;
+        padding: 10px;
+        background-color: #ecdbb8;
+    }
+
+    nav h3 {
+        font-size: 26px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #009a3a;
+    }
+
+    nav ul {
+        margin-top: 10px 0 0 25px;
+    }
+
+    nav li {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*guestbook*/
+    aside #guestbook {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0 0 15px 0;
+
+        position: absolute;
+        top: 1400px;
+    }
+
+    aside #guestbook_title {
+        width: 165px;
+        padding: 10px 0 5px 5px;
+        margin: 0 0 0 8px;
+        border-bottom: 1px solid #ccc;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    aside #guestbook ul {
+        margin: 10px 0 0 25px;
+    }
+
+    aside #guestbook li {
+        margin-top: 5px;
+        list-style-type: circle;
+        font-size: 18px;
+        display: inline;
+    }
+
+    aside #guestbook input {
+        margin: 0 0 0 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    main {
+        width: auto;
+        height: 1700px;
+        margin: 0 auto;
+    }
+
+
+    section#main #main_head_img_box {
+        background-image: url(../img/sub_2_mainImg.jpeg), url(../img/sub_2_main2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1000px;
+        height: 300px;
+        margin-top: 200px;
+    }
+
+    /* nav */
+    main aside {
+        width: 100%;
+        height: 530px;
+        /* border: 1px solid red; */
+        display: inline-block;
+        clear: both;
+        position: relative;
+        top: -980px;
+    }
+
+    main aside nav {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 180px;
+        padding: 10px;
+        background-color: #ecdbb8;
+    }
+
+    nav h3 {
+        font-size: 26px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #009a3a;
+    }
+
+    nav ul {
+        margin-top: 10px 0 0 25px;
+    }
+
+    nav li {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*guestbook*/
+    aside #guestbook {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0 0 15px 0;
+
+        position: absolute;
+        top: 1400px;
+    }
+
+    aside #guestbook_title {
+        width: 165px;
+        padding: 10px 0 5px 5px;
+        margin: 0 0 0 8px;
+        border-bottom: 1px solid #ccc;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    aside #guestbook ul {
+        margin: 10px 0 0 25px;
+    }
+
+    aside #guestbook li {
+        margin-top: 5px;
+        list-style-type: circle;
+        font-size: 18px;
+        display: inline;
+    }
+
+    aside #guestbook input {
+        margin: 0 0 0 20px;
+    }
+
+
+
+
+    section#main #notice_free_youtube {
+        height: 420px;
+        position: relative;
+        margin-top: 35px;
+
+    }
+
+    /* 공지사항 박스 */
+    section#main #notice {
+        width: 350px;
+        position: absolute;
+        top: 30px;
+        margin: 20px 0 20px 0;
+    }
+
+    /*자유 게시판 박스 */
+    section#main #free {
+        width: 400px;
+        position: absolute;
+        top: 180px;
+        left: 0px;
+        margin: 20px 0 20px 0;
+    }
+
+}

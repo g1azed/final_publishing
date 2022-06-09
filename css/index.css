@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: 'Shining_star';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Shining_star.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body{
+    background-color: #ffbeb7;
+    margin:0 ;padding:0;
+    width: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+}
+main{
+    width: 1920px; height: 800px;
+
+
+}
+.box{
+    /* width: 1520px; */
+    display: flex; justify-content: center; align-items: center;
+    margin-top: 150px;
+    position: relative;
+    font-family: 'Shining_star';
+}
+.box #text_box{
+    width: 615px; height: 450px;
+    margin-right: 90px;
+    background-image: url(../img/text_box.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+
+}
+.box #text_box p{
+    /* width: 450px; */
+    text-align: right;
+    /* margin-top: 100px; */
+    margin: 130px 0 0 50px ;
+    position: absolute;
+    /* top: 130px; left: 430px; */
+
+    font-size: 30px;
+
+}
+.box img{
+    width: 300px; height: auto;
+}
+
+
+
+
+
+@media (max-width:1100px){
+    .box{
+        /* width: 1520px; */
+        /* display: flex; justify-content: center; align-items: center; */
+        margin-top: 150px;
+        /* margin: 150px 0 0 500px; */
+        position: relative;
+    }
+    .box #text_box{
+        width: 450px; height: 600px;
+        /* margin-right: 90px; */
+        background-image: url(../img/text_box.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* position: relative; */
+    
+    
+    }
+    .box #text_box p{
+        /* width: 450px; */
+        text-align: right;
+        /* margin-top: 100px; */
+        margin: 130px 0 0 50px ;
+        position: absolute;
+        /* top: 130px; left: 430px; */
+    
+        font-size: 20px;
+    
+    }
+}
+@media (max-width: 768px) {
+    .box{
+        /* width: 1520px; */
+        display: inline-block;
+        margin: 150px 0 0 500px;
+        position: relative;
+    }
+    .box #text_box{
+        width: auto; height: 450px;
+        margin: 0 20px 0 0 ;
+        background-image: none;
+
+        /* position: relative; */
+    
+    
+    }
+    .box #text_box p{
+        width: 460px;
+        /* text-align: right; */
+        /* margin-top: 100px; */
+        margin: 0 0 0 0 ;
+        /* position: absolute; */
+        /* top: 130px; left: 430px; */
+        display: inline-block;
+        font-size: 28px;
+        position: absolute;
+        left: -480px; top: 0px;
+    
+    }
+    .box img{
+        width: 230px; height: auto;
+        
+        position: absolute;
+        left: -280px; top: 200px;
+    }
+  }

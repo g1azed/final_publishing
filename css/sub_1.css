@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Shining_star';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Shining_star.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin:0; padding:0;
+}
+
+main{
+    font-family: 'Shining_star';
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+div{
+    font-size: 36px;
+    line-height: 36px;
+    /* margin:  100px 0 ; */
+    /* vertical-align: center; */
+}
+section{
+    width: 1200px; height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+section #left form input{
+    display: inline;
+    margin:  30px 0 ;
+    vertical-align:top;
+
+}
+label{
+    display: inline;
+    height: 35px;
+    line-height: 35px;
+    /* border: 1px solid #000; */
+}
+section form div{
+
+    /* display: flex;
+    align-items: center;
+    justify-content:center */
+    width: 450px; height: 800px;
+    display: inline-block;
+
+    border: 1px solid black;
+}
+#left_div{
+    padding: 50px;
+}
+section #right{
+    margin-left: 80px;
+    width: 550px; height: 610px;
+    position: relative;
+
+}
+section #right #potato_body{
+    width: 450px; height: 510px;
+    background-image: url(../img/potato/body_11.png);
+    background-repeat: no-repeat; background-size: contain;
+
+}
+section #right #potato_face{
+    width: 100px; height: 100px;
+    position: absolute;
+    top: 100px; left:150px;
+    background-image: url(../img/potato/face_1.png);
+    background-repeat: no-repeat; background-size: contain;
+    
+}
+
